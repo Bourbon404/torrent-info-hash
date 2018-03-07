@@ -1,0 +1,16 @@
+{
+  "name": "torrent-info-hash",
+  "version": "1.0.0",
+  "description": "Get torrent info hash",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -s getHash -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deparsoul",
+  "license": "MIT",
+  "dependencies": {
+    "bencode": "^2.0.0",
+    "simple-sha1": "^2.1.0"
+  }
+}
