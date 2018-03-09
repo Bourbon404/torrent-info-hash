@@ -4,7 +4,7 @@
   "description": "Get torrent info hash",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js -s getHash | uglifyjs > bundle.js",
+    "build": "browserify index.js -s parseTorrent | uglifyjs > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Deparsoul",

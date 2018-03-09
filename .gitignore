@@ -3,6 +3,8 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+test.js
+
 # Editor directories and files
 .idea
 *.iml
